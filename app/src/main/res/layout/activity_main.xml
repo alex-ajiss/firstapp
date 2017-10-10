@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context="com.example.administrator.myapplication.MainActivity">
+
+    <Button
+        android:layout_width="358dp"
+        android:layout_height="49dp"
+        android:text="登陆"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="358dp"
+        android:layout_height="49dp"
+        android:elevation="1dp"
+        android:text="注册"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <FrameLayout
+        android:layout_width="134dp"
+        android:layout_height="113dp"
+        android:background="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="112dp">
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
